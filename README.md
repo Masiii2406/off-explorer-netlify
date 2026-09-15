@@ -2,7 +2,7 @@
 
 A full-stack product explorer for packaged foods, built on the [Open Food Facts](https://world.openfoodfacts.org) database.
 
-**Live demo:** https://YOUR-SITE.netlify.app
+**Live demo:** https://tubular-bubblegum-d7ed44.netlify.app
 **Repository:** https://github.com/Masiii2406/off-explorer-netlify
 
 ## What the API does
