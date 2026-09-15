@@ -3,7 +3,7 @@
 A full-stack product explorer for packaged foods, built on the [Open Food Facts](https://world.openfoodfacts.org) database.
 
 **Live demo:** https://YOUR-SITE.netlify.app
-**Repository:** https://github.com/YOUR-USERNAME/off-explorer-netlify
+**Repository:** https://github.com/Masiii2406/off-explorer-netlify
 
 ## What the API does
 
