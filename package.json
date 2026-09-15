@@ -1,0 +1,11 @@
+{
+  "name": "off-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.37.0"
+  }
+}
