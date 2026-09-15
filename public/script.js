@@ -57,11 +57,15 @@ function renderProducts() {
     : allProducts;
 
   const grades = [...new Set(allProducts.map((p) => p.nutriScore).filter(Boolean))];
-  if (grades.length > 1) {
-    filterRow.classList.remove('hidden');
-  } else {
-    filterRow.classList.add('hidden');
-  }
+if (grades.length > 0) {
+  filterRow.classList.remove('hidden');
+  document.querySelectorAll('[data-grade]').forEach((btn) => {
+    const g = btn.dataset.grade;
+    btn.style.display = g === '' || grades.includes(g) ? '' : 'none';
+  });
+} else {
+  filterRow.classList.add('hidden');
+}
 
   if (filtered.length === 0) {
     results.innerHTML = `<p class="state">No products match this filter.</p>`;
